@@ -1,0 +1,52 @@
+<div>
+    <h2 *ngIf="activeComponent !== 'ConfiguracionAlarma'">Historial de notificaciones</h2>
+  
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" *ngIf="activeComponent !== 'ConfiguracionAlarma'">
+  
+        <!-- Columna 1 -->
+        <ng-container matColumnDef="col1">
+          <th mat-header-cell *matHeaderCellDef> <h4>Fecha</h4>  </th>
+          <td mat-cell *matCellDef="let element"> <h3>{{element.col1}}</h3> </td>
+        </ng-container>
+      
+        <!-- Columna 2 -->
+        <ng-container matColumnDef="col2">
+          <th mat-header-cell *matHeaderCellDef> <h4>Hora</h4>  </th>
+          <td mat-cell *matCellDef="let element"> <h3>{{element.col2}}</h3> </td>
+        </ng-container>
+      
+        <!-- Columna 3 -->
+        <ng-container matColumnDef="col3">
+          <th mat-header-cell *matHeaderCellDef> <h4>Días</h4> </th>
+          <td mat-cell *matCellDef="let element"> <h3>{{element.col3}}</h3> </td>
+        </ng-container>
+      
+        <!-- Columna 4 -->
+        <ng-container matColumnDef="col4">
+          <th mat-header-cell *matHeaderCellDef> <h4>Descripción</h4>  </th>
+          <td mat-cell *matCellDef="let element"> <h3>{{element.col4}}</h3> </td>
+        </ng-container>
+      
+        <!-- Columna de acciones -->
+        <ng-container matColumnDef="actions">
+          <th mat-header-cell *matHeaderCellDef>  </th>
+          <td mat-cell *matCellDef="let element">
+            <div class="example-button-row">
+              <button mat-stroked-button class="edit-button" (click)="setActiveComponent('ConfiguracionAlarma')">Editar</button>               
+              <button mat-mini-fab class="delete-button" (click)="deleteElement(element)">
+                <mat-icon>cancel</mat-icon>
+              </button>                         
+            </div>
+          </td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      
+      </table>
+  
+      <!-- Componente de Configuración -->
+      <ng-container *ngIf="activeComponent === 'ConfiguracionAlarma'">
+        <app-configuracion></app-configuracion>   
+      </ng-container>
+  </div>

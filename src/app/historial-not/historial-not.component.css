@@ -1,0 +1,99 @@
+h2{
+    font-size: 40px  !important;  
+    margin-left: 80px;
+    font-family: 'Roboto' !important;  
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    color: #49108B !important;
+  }
+  h4{
+    font-size: 25px  !important;     
+    font-family: 'Roboto' !important;  
+    margin-top: 10px;
+    color: #49108B !important;
+    font-weight: bold !important;
+  }
+  h3{
+    font-size: 20px  !important;     
+    font-family: 'Roboto' !important;  
+    margin-top: 10px;
+    color: #7E30E1 !important;
+    }
+
+  /* Estilo de la tabla */
+table {
+    background-color: #F3F8FF !important; /* Color de fondo */
+    font-size: 20px !important; /* Tamaño de fuente */
+    border-color: none !important;
+    color: #7E30E1 !important; 
+    margin: 40PX;
+    box-shadow: none !important; 
+     border-collapse: collapse; 
+  }
+  
+  /* Estilo de las celdas del encabezado */
+  th.mat-header-cell {
+    background-color: #F3F8FF !important; /* Color de fondo del encabezado */
+    border-color: none !important;
+    color: #7E30E1 !important; 
+  }
+  
+  /* Estilo de las celdas */
+  td.mat-cell {
+    border-color:none !important;
+  }
+  
+  /* Opcional: Cambiar color de los botones */
+  .mat-button, .mat-icon-button {
+    color: #7E30E1 !important; /* Color de texto de los botones */
+  }
+  
+  /* Opcional: Color de fondo de los botones */
+  .mat-button {
+    background-color: transparent; /* Fondo transparente para los botones */
+  }
+  
+  .mat-icon-button {
+    background-color: transparent; /* Fondo transparente para los iconos */
+  }
+
+  mat-divider {
+    background-color: #7E30E1 !important;
+  }
+  .mat-button, .mat-icon-button {
+    color: #7E30E1 !important; /* Color de texto de los botones */
+    border-color: #7E30E1 !important; 
+  }
+  th.mat-header-cell {
+    background-color: #F3F8FF !important; /* Color de fondo del encabezado */
+    font-weight: bold !important; /* Fuente en negrita */
+    border: none !important; /* Quitar borde del encabezado */
+  }
+  
+  /* Estilo de las celdas */
+  td.mat-cell {
+    font-weight: bold !important; /* Fuente en negrita */
+    border: none !important; /* Quitar borde de las celdas */
+  }
+  
+  .example-button-row {
+    display: flex; /* Usar flexbox para alinear botones */
+    align-items: center; /* Alinear verticalmente en el centro */
+    gap: 8px; /* Espaciado entre botones */
+  }
+  .edit-button {
+    color: #49108B !important; 
+    border-color: #49108B !important; 
+    font-size: 18px  !important;      
+    font-family: 'Roboto' !important;  
+  }
+  .delete-button {
+    color: #F3F8FF !important; 
+    border-color: #7E30E1 !important; 
+    background-color: #7E30E1 !important;
+   
+  }
+  .mat-icon {
+    border-color: #F3F8FF !important; 
+  }

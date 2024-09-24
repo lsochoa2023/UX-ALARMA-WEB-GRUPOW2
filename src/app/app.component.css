@@ -1,0 +1,49 @@
+  
+  .header-container {
+    display: flex;               /* Utiliza Flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacia los elementos a los extremos */
+    align-items: center;        /* Alinea verticalmente en el centro */
+    padding: 0;             /* Añade algo de padding si es necesario */
+}
+.example-button-container {
+    display: flex;             /* Para alinear el botón correctamente */
+    justify-content: flex-end; /* Alinear el botón a la derecha */
+    margin-right: 20px;   
+}
+.example-button-container button {
+    background-color: #49108B; 
+    color: #F3F8FF !important;
+    border: none;   
+    font-size: 22px;         
+}
+  mat-divider {
+    border-top-color: #7E30E1; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  h1{
+    margin: 40px;
+    color:#49108B;
+    font-size: 63px;
+    font-weight: bold;   
+  }
+
+   h3{
+    font-size: 30px  !important;  
+    margin-left: 20px;
+    font-family: 'Roboto' !important;  
+    padding: 0;
+    margin-bottom: 8px;
+    margin-top: 50px;
+    color: #F3F8FF !important;
+  }
+  
+  
+  span{
+    color: #F3F8FF !important;
+    font-size: 22px !important; 
+    font-family: 'Roboto' !important;  
+  }
+  

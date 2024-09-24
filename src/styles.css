@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    font-family: Roboto !important;
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    background-color: #F3F8FF !important;
+  }
+  
+  .sidenav-container {
+    height: 100vh; 
+    background-color: #F3F8FF !important;   
+    margin-top: 5px;   
+  }
+  
+  .sidenav {
+    background-color: #49108B !important; 
+    color: #F3F8FF !important; 
+    width: 350px; 
+    padding: 0; 
+    margin-left: 0;  
+  }
+  
+  a:hover {
+    background-color: #7E30E1 !important; 
+  }
+   
+  .mat-list-item span{
+    color: #F3F8FF !important;
+  }
+  
+  .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #F3F8FF !important;
+    color: #7E30E1 !important;
+    border-color:  #7E30E1 !important; 
+  }
+  .mat-drawer-container {
+    color: #7E30E1 !important;
+    font-size: 16px  !important;      
+    font-family: 'Roboto' !important;  
+  }
+  .cdk-overlay-pane:not(.mat-mdc-select-panel-above) div.mat-mdc-select-panel {
+    background-color: #7E30E1 !important;
+   
+  }
+  .mat-mdc-option .mdc-list-item__primary-text {
+    color:  #F3F8FF !important;
+    font-size: 16px  !important;      
+    font-family: 'Roboto' !important;  
+  }
+  .mat-mdc-select-value-text ,.mat-mdc-form-field .mat-mdc-floating-label.mdc-floating-label 
+    {
+    color: #7E30E1 !important;
+  }
+  .mdc-text-field--outlined:not(.mdc-text-field--disabled) .mdc-text-field__input, .mat-mdc-select-value  {
+    color:  #49108B !important; 
+}
+
+  

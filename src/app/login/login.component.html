@@ -1,0 +1,36 @@
+<div class="header-container">
+    <h1>My Alarm</h1>    
+  </div>  
+  <mat-divider ></mat-divider>
+<mat-card class="login-card">
+    <mat-card-header>
+        <div class="combo">
+            <mat-card-title><h2>Iniciar Sesión</h2></mat-card-title>
+        </div>      
+    </mat-card-header>
+    <mat-card-content>
+      <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+        
+        <div class="combo">
+            <mat-form-field appearance="fill" class="custom-form-field  full-width">
+                <mat-label class="estilo-input">Correo Electrónico</mat-label>
+                <input matInput type="email" name="email" class="estilo-input" >        
+              </mat-form-field>
+        </div>
+        <div class="combo">
+            <mat-form-field appearance="fill" class=" custom-form-field full-width">
+                <mat-label class="estilo-input">Contraseña</mat-label>
+                <input matInput type="password" name="password" class="estilo-input" ngModel >  
+              </mat-form-field>
+        </div>
+        
+        <div class="combo">
+            <div class="example-button-container">
+                <button mat-fab extended  type="submit" >   
+                  Login
+                </button>
+            </div>
+        </div>          
+      </form>
+    </mat-card-content>
+  </mat-card>

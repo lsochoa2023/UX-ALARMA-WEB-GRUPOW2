@@ -1,0 +1,92 @@
+mat-divider {
+    border-top-color: #7E30E1; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  h1{
+    margin: 40px;
+    color:#49108B;
+    font-size: 63px;
+    font-weight: bold;   
+  }
+  .login-card {
+    width: 500px; 
+    margin: 20px auto; 
+    padding: 20px;
+    margin-top: 200px;
+    background-color: #F3F8FF;
+    box-shadow: 1px, 1px, 1px 1px #7E30E1;
+    justify-content: center; 
+  } 
+  
+  
+  .combo {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+  }
+  .example-button-container button {
+    background-color: #49108B; 
+    color: #F3F8FF !important;
+    border: none;   
+    font-size: 22px;         
+  }
+
+h2{
+    font-size: 50px  !important;  
+    font-family: 'Roboto' !important;  
+    padding: 0;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    color: #49108B !important;
+    text-align: center;
+  }
+
+ .estilo-input{ 
+  color: #7E30E1 !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+ }
+ .mat-card-title{
+  text-align: center;
+ }
+
+ .full-width {
+  width: 100%;
+  background-color: #F3F8FF !important;
+}
+.custom-form-field {
+  background-color: transparent; 
+  border: none; 
+  border-bottom: none; 
+  position: relative; 
+}
+
+
+.custom-form-field input {
+  background-color: transparent;
+  position: relative; 
+  z-index: 1; 
+}
+
+.mat-card-header, .mat-card-content {
+  display: flex;         
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center; 
+  text-align: center;     
+}
+
+.example-button-container button {
+  background-color: #49108B; 
+  color: #F3F8FF !important;
+  border: none;   
+  font-size: 30px;      
+  padding: 30px;   
+}
+
+

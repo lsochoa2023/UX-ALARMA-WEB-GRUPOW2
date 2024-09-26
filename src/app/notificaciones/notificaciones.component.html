@@ -1,0 +1,52 @@
+<div>
+    <h2>Notificaciones</h2>
+    <mat-grid-list cols="2" rowHeight="4:2">        
+        <mat-grid-tile>
+            <div class="combo" >
+            <h4>Desea activar notificaciones push?</h4> 
+            <mat-form-field>             
+                <mat-label>Seleccione...</mat-label>
+                <mat-select>
+                <mat-option *ngFor="let tipo of tipos" [value]="tipo.value">
+                    {{ tipo.viewValue }}
+                </mat-option>
+                </mat-select>
+            </mat-form-field>
+            </div>            
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <div class="image-container">
+                <img src="assets/images/image.png" alt="Image description">
+            </div>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <div class="combo" >
+                <h4>Estado</h4> 
+                <mat-form-field>             
+                    <mat-label>Seleccione...</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let estado of estados" [value]="estado.value">
+                            {{ estado.viewValue }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>            
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <div class="combo">
+                <div class="example-button-container">
+                    <button mat-fab extended  (click)="mostrarAlerta()">   
+                      Guardar
+                    </button>
+                </div>
+            </div>  
+        </mat-grid-tile>
+       
+        
+      </mat-grid-list>
+    <div class="image-container" style="position: relative;"></div>
+    <img src="assets/images/abajo.png" alt="Image description" style="position: absolute; bottom: 0; right: 0;">
+</div>

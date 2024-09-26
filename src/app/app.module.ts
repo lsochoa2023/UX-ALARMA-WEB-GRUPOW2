@@ -19,14 +19,20 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { HistorialNotComponent } from './historial-not/historial-not.component';
 import { MatTableModule } from '@angular/material/table';
 import { LoginComponent } from './login/login.component';
-import { MatCardModule } from '@angular/material/card'; 
+import { MatCardModule } from '@angular/material/card';
+import { NotificacionesComponent } from './notificaciones/notificaciones.component';
+import { CompartirComponent } from './compartir/compartir.component';
+import { PendienteComponent } from './pendiente/pendiente.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     ConfiguracionComponent,
     HistorialNotComponent,
-    LoginComponent
+    LoginComponent,
+    NotificacionesComponent,
+    CompartirComponent,
+    PendienteComponent
   ],
   imports: [
     BrowserModule,

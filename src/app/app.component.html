@@ -17,13 +17,13 @@
       <a mat-list-item (click)="setActiveComponent('ConfiguracionAlarma')">
         <span>Configuración de alarma</span>
       </a>
-      <a mat-list-item>
+      <a mat-list-item (click)="setActiveComponent('Notificaciones')">
         <span>Notificaciones</span>
       </a>
-      <a mat-list-item>
+      <a mat-list-item (click)="setActiveComponent('Compartir')">
         <span>Compartir alarma</span>
       </a>
-      <a mat-list-item>
+      <a mat-list-item (click)="setActiveComponent('Pendientes')">
         <span>Tareas pendientes</span>
       </a>
       <a mat-list-item (click)="setActiveComponent('HistorialNotificaicon')">
@@ -34,9 +34,13 @@
   <mat-sidenav-content class="sidenav-content">
     <ng-container [ngSwitch]="activeComponent">
       <app-configuracion *ngSwitchCase="'ConfiguracionAlarma'"></app-configuracion>        
-      <app-historial-not *ngSwitchCase="'HistorialNotificaicon'"></app-historial-not>      
+      <app-historial-not *ngSwitchCase="'HistorialNotificaicon'"></app-historial-not>  
+      <app-notificaciones *ngSwitchCase="'Notificaciones'"></app-notificaciones>
+      <app-compartir *ngSwitchCase="'Compartir'"></app-compartir>
+      <app-pendiente *ngSwitchCase="'Pendientes'"></app-pendiente>
     </ng-container>
   </mat-sidenav-content>
 </mat-sidenav-container>
+
 
 <router-outlet></router-outlet>

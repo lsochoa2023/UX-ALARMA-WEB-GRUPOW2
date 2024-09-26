@@ -1,0 +1,99 @@
+h2{
+    font-size: 40px  !important;  
+    margin-left: 80px;
+    font-family: 'Roboto' !important;  
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    color: #49108B !important;
+  }
+
+  h4{
+    font-size: 25px  !important;     
+    font-family: 'Roboto' !important;  
+    margin-top: 10px;
+    color: #49108B !important;
+  }
+  
+ 
+  .combo{
+    display: flex; flex-direction: column; align-items: flex-start;     
+  }
+ .example-full-width input{
+  color: #49108B !important; 
+  font-size: 20px  !important;  
+  border-color: #7E30E1 !important;
+}
+
+.mat-mdc-form-field{
+  border-color: #7E30E1 !important;
+  font-size: 20px  !important;     
+  font-family: 'Roboto' !important;    
+  }
+
+.example-button-container button {
+  background-color: #49108B; 
+  color: #F3F8FF !important;
+  border: none;   
+  font-size: 22px;         
+}
+.time-selector-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; /* Espacio entre los campos */
+}
+
+.time-field{
+  width: 80px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.ampm-field {
+  width: 90px; 
+}
+
+.mat-form-field {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.mat-hint {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 4px; /* Espacio entre el input y la etiqueta */
+  color: #7E30E1 !important;
+}
+
+
+/* Cambiar fondo y color de los inputs */
+ input .mat-input-element, .mat-select-trigger {
+  color: #7E30E1 !important;
+  text-align: center;       
+}
+
+/* Estilo del placeholder */
+ input::placeholder {
+  color:  #7E30E1 !important;            
+  opacity: 0.7;   
+      
+}
+
+.mat-form-field-outline .mat-form-field-outline-end, 
+.mat-form-field-outline .mat-form-field-outline-start {
+  border-color:  #7E30E1 !important;  
+}
+
+
+.mat-focused .mat-input-element, .mat-form-field-outline-thick,  .mat-select-trigger {
+  border-color:  #7E30E1 !important;
+}
+
+button{
+    background-color: #49108B !important; 
+    color: #F3F8FF !important;
+    border: none;   
+    font-size: 22px;         
+}
